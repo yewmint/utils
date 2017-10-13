@@ -1,0 +1,31 @@
+{
+  "name": "utils",
+  "version": "0.0.1",
+  "description": "some utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yewmint/utils.git"
+  },
+  "author": "yewmint",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yewmint/utils/issues"
+  },
+  "homepage": "https://github.com/yewmint/utils#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "expect.js": "^0.3.1",
+    "mocha": "^4.0.1",
+    "webpack": "^3.7.1",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {
+    "sharp": "^0.18.4"
+  }
+}
